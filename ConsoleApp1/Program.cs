@@ -61,6 +61,18 @@ namespace ConsoleApp1
         {
             return spells[0];
         }
+
+        static bool TryParse(string inS, out Person dude)
+        {
+            // body
+            Person dude2 = null;
+            if (dude2 == null)
+            {
+                Console.WriteLine("That's not even a thing");
+            }
+            dude = null;
+            return false;
+        }
     }
 
     class PlayerControlledPerson : Person
